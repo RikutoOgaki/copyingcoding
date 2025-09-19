@@ -9,7 +9,6 @@ header{
     background-image: url(/public/img/header.png);
     background-position: center;
     background-size: cover;
-    padding: 1rem;
 }
 
 header h1{
@@ -18,4 +17,5 @@ header h1{
     display: flex;
     justify-content: right;
     align-items: center;
+    padding: 0 20px;
 }
