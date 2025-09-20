@@ -41,7 +41,7 @@ header h1 img{
 
 .main section .mainContentTitle h2{
     font-size: 1.5rem;
-    margin:3rem 0;
+    margin:2rem 0;
 }
 
 .main section .mainContentArticle{
@@ -67,22 +67,10 @@ header h1 img{
 .main section .mainContentArticle .mainContentArticleItem div{
     width: 15rem;
     height: 6rem;
+    background-color: black;
     position: absolute;
     bottom:50%;
     left: 50%;
+    /* top: 50%; */
     transform: translate(-50% , 50%);
-    background-color: rgba(255, 255, 255, 40%);
-    padding: 1rem;
 }
-
-.main section .mainContentArticle .mainContentArticleItem div h3{
-    color: #ffffff;
-    text-align: center;
-    margin-top: .5rem;
-}
-
-.main section .mainContentArticle .mainContentArticleItem div p{
-    color: #ffffff;
-    text-align: center;
-}
-

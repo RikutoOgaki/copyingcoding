@@ -71,14 +71,12 @@ header h1 img{
     bottom:50%;
     left: 50%;
     transform: translate(-50% , 50%);
-    background-color: rgba(255, 255, 255, 40%);
     padding: 1rem;
 }
 
 .main section .mainContentArticle .mainContentArticleItem div h3{
     color: #ffffff;
     text-align: center;
-    margin-top: .5rem;
 }
 
 .main section .mainContentArticle .mainContentArticleItem div p{
