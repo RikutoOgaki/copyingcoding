@@ -1,0 +1,93 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/public/img/header.png);
+    background-position: center;
+    background-size: cover;
+    /* padding: 1rem; */
+}
+
+header h1{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header h1 img{
+    margin-right: 1rem;
+}
+
+.main section{
+    width: 100%;
+    height: 100vh;
+    /* padding: 3rem 0; */
+}
+
+.main section .mainContentTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom:2rem;
+}
+
+.main section .mainContentTitle h2{
+    font-size: 1.5rem;
+    margin:3rem 0;
+}
+
+.main section .mainContentArticle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.main section .mainContentArticle .mainContentArticleItem{
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+}
+
+
+.main section .mainContentArticle .mainContentArticleItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main section .mainContentArticle .mainContentArticleItem div{
+    width: 16rem;
+    height: 6rem;
+    position: absolute;
+    bottom:50%;
+    left: 50%;
+    transform: translate(-50% , 50%);
+    background-color: rgba(0, 0, 0, 40%);
+    padding: 1rem;
+}
+
+.main section .mainContentArticle .mainContentArticleItem div h3{
+    color: #ffffff;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.main section .mainContentArticle .mainContentArticleItem div p{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.main section .mainContentArticle .mainContentArticleItem img:hover{
+    background-color: #000000;
+}
