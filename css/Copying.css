@@ -18,8 +18,13 @@ ul {
   list-style: none;
 }
 
+section {
+  margin-top: 64px;
+}
+
 .container {
   max-width: 1200px;
+  padding-inline: 16px;
   margin-inline: auto;
 }
 
@@ -43,7 +48,6 @@ header h1 {
 
 .main-content-title {
   text-align: center;
-  margin-top: 5rem;
 }
 
 .btn-more {
@@ -75,13 +79,14 @@ header h1 {
 }
 .top-flex-list-item a div {
   width: 275px;
-  height: 100px;
   position: absolute;
   top: 50%;
-  right: 25%;
+  right: 50%;
+  transform: translate(50%, -50%);
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
+  padding: 16px;
 }
 .top-flex-list-item::after {
   content: "";
@@ -100,16 +105,16 @@ header h1 {
 .main-content-visual {
   width: 100%;
   height: 450px;
-  margin-top: 6rem;
   background-image: url("../../img/alex-lvrs-2zDw14yCYqk-unsplash.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  padding-top: 48px;
 }
 .main-content-visual-text {
   text-align: center;
-  margin: 3rem auto 0;
+  margin-inline: auto;
 }
 
 .catalog-flex-box {
@@ -118,7 +123,7 @@ header h1 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .catalog-flex-box img {
   display: block;
@@ -131,4 +136,24 @@ header h1 {
 .catalog-flex-box-item p {
   text-align: left;
   margin-top: 1rem;
+}
+
+.foot-container {
+  background-color: #262626;
+  padding-block: 100px;
+  text-align: left;
+}
+.foot-container .foot-contents-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.foot-container .foot-contents-list .list-item {
+  width: 33.3333333333%;
+}
+
+.foot-copy-box {
+  text-align: center;
+  padding-block: 20px;
 }
