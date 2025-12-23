@@ -20,6 +20,7 @@ ul {
 
 section {
   margin-top: 64px;
+  padding-inline: 16px;
 }
 
 .container {
@@ -141,7 +142,6 @@ header h1 {
 .foot-container {
   background-color: #262626;
   padding-block: 100px;
-  text-align: left;
 }
 .foot-container .foot-contents-list {
   display: flex;
@@ -163,4 +163,31 @@ header h1 {
 .foot-copy-box {
   text-align: center;
   padding-block: 20px;
+}
+
+@media (max-width: 960px) {
+  .top-flex-list {
+    flex-direction: column;
+  }
+  .catalog-flex-box {
+    flex-direction: column;
+  }
+  .catalog-flex-box:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+  .catalog-flex-box img {
+    width: 100%;
+  }
+  .foot-container .foot-contents-list {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .foot-container .foot-contents-list .list-item {
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .foot-container .foot-contents-list .list-item:nth-child(1) {
+    text-align: center;
+  }
 }
