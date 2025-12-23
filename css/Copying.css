@@ -110,11 +110,11 @@ header h1 {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 48px;
 }
 .main-content-visual-text {
   text-align: center;
   margin-inline: auto;
+  padding-top: 48px;
 }
 
 .catalog-flex-box {
@@ -151,6 +151,13 @@ header h1 {
 }
 .foot-container .foot-contents-list .list-item {
   width: 33.3333333333%;
+}
+.foot-container .foot-contents-list .list-item .list-item-list {
+  list-style: none;
+}
+.foot-container .foot-contents-list .list-item .list-item-list li::before {
+  content: "-";
+  color: #ffffff;
 }
 
 .foot-copy-box {
