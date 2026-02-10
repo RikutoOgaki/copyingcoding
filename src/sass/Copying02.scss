@@ -180,4 +180,14 @@ main {
   }
 }
 
-@media (max-width:800px) {}
+@media (max-width:800px) {
+
+  // sectionの中
+  section {
+    flex-direction: column;
+
+    .main-image-box {
+      max-width: 100%;
+    }
+  }
+}

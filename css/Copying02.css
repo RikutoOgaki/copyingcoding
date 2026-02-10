@@ -127,3 +127,12 @@ main section .main-content-box .size-table tr td {
   padding: 8px;
   font-size: 12px;
 }
+
+@media (max-width: 800px) {
+  section {
+    flex-direction: column;
+  }
+  section .main-image-box {
+    max-width: 100%;
+  }
+}
